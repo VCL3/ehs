@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS stockmetadata (
+  uuid UUID NOT NULL PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  ticker VARCHAR(255) NOT NULL,
+  exchange VARCHAR(255)
+);

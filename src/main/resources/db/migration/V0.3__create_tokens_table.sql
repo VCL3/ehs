@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS tokens (
+  uuid UUID NOT NULL PRIMARY KEY,
+  email VARCHAR(255) NOT NULL UNIQUE,
+  password VARCHAR(255) NOT NULL,
+  username VARCHAR(255),
+  firstname VARCHAR(255),
+  lastname VARCHAR(255),
+  role VARCHAR(255)
+);
